@@ -10,7 +10,7 @@
 1. Open Claude Desktop settings and select developer options
 2. Click on edit config and paste the config file from the repo. Replace username with your username
 3. Test by accessing files on Desktop and giving Claude a command to open your browser
-4. If this doesn't work immediately run this in your terminal
+4. If this doesn't work immediately run this in your terminal <br>
    ```npx @agent-infra/mcp-server-browser --port 8089```
 5. The prompt I am using currently: "Search Google for New Grad Computer Science Roles. click on the jobs tab and click on the first posting. cancel or appropriately handle any other pop-ups. use the Dipti Kulkarni Resume.pdf file and Dipti Kulkarni Cover Letter.pdf to apply to the job. update the cover letter file by changing company name and their mission according to the job description."
 
