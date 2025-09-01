@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/Dipti/Desktop"
+      ]
+    },
+"browser": {
+"type": "streamable-http",
+      "url": "http://127.0.0.1::8089/mcp",
+      "command": "npx",
+      "args": [
+        "@agent-infra/mcp-server-browser@latest"
+      ]
+    }
+  }
+}
